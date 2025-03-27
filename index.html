@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>portfolio website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+
+        background: rgb(1, 1, 37);
+        color: white;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 70px;
+        background-color: rgb(2, 2, 55);
+      }
+      .right ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(143, 143, 223);
+      }
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 30px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0;
+      }
+      .firstsection div {
+        width: 30%;
+      }
+      .rightsection img {
+        width: 80%;
+        margin: 0px 0;
+      }
+      .leftsection {
+        margin-top: 30px;
+        font-size: 2rem;
+      }
+      .buttons {
+        display: flex;
+      }
+      .btn {
+        margin: 0 10px;
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .purple {
+        color: rgb(107, 13, 196);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(107, 13, 196);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondsection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-tittle {
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(13, 9, 22);
+        /* height: 233px; */
+      }
+      .footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 23px 122px;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      footer .text-center {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rohit's portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          HI ,my name is <span class="purple">Rohit</span> and I am a passionate
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightsection"><img src="image1.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What i have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="image2.png" alt="" />
+            <div class="vertical-tittle">Web developer (2024)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              quos assumenda quis libero dolores exercitationem fugit suscipit
+              voluptatum id totam eum,
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="image2.png" alt="" />
+            <div class="vertical-tittle">Web developer (2024)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              quos assumenda quis libero dolores exercitationem fugit suscipit
+              voluptatum id totam eum,
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image2.png" alt="" />
+            <div class="vertical-tittle">Web developer (2024)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              quos assumenda quis libero dolores exercitationem fugit suscipit
+              voluptatum id totam eum,
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="image2.png" alt="" />
+            <div class="vertical-tittle">Web developer (2024)</div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              quos assumenda quis libero dolores exercitationem fugit suscipit
+              voluptatum id totam eum,
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Rohit's developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center">
+        copyright &#169; www.rohitportfolio.com | All right reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web developer.",
+          "&amp; a Java developer.",
+          "MERNstack developer. ",
+          "Video Editor.",
+          "Graphic Designer.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
